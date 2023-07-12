@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    background-color: #C7B7B5;
+    background: radial-gradient(ellipse at top, #8F6D63, transparent), radial-gradient(ellipse at bottom, #8A7D68, transparent);
+    font-family: 'Kalam', sans-serif
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   gap: 1 rem;
+   margin: 16px 5px 0px;
+}
+/*.name {
+    margin-left: 5px;
+}
+.nav {
+    margin-top: 16px;
+    margin-left: 600px;
+    margin-right: 5px;
+
+}*/
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+   
+}
+
+#aboutme {
+    border: solid 1px none;
+    width: 450px;
+    text-align: center;
+    margin: 5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#mypic {
+    margin: 5px;
+    max-width: 500px; 
+}
+
+.mypic {
+    width: 100%;
+    height: 350px;
+    border: 2px solid #00000054; /* Set the border color and style */
+    border-radius: 10px; /* Set the border radius */
+}
+.myProject {
+    margin-left: 5px;
+}
+.project {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.my {
+    display: flex;
+    justify-content:center;
+    align-items: center;     
+}
+
+.skills {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content:center;
+    align-items: center;    
+}
+.footer {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.img {
+    width:25px;
+    height: 25px;
+}
+
+
+
+@media (max-width: 425px) {
+    .skills {
+        width: 100%;
+    }
+}
